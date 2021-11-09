@@ -3,10 +3,10 @@ description:  Report an issue to help improve the project.
 labels: ["type: bug"]
 body:
   - type: checkboxes
-    id: terms
+    id: checks
     attributes:
-      label: Code of Conduct
-      description: <description>
+      label: Docs
+      description: Make sure you went through the README file and docs
       options:
-        - label: "I have went through the project's Readme"
+        - label: "I have went through the project's README file"
           required: true
