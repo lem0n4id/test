@@ -1,0 +1,12 @@
+name: Bug Report
+description:  Report an issue to help improve the project.
+labels: ["type: bug"]
+body:
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: <description>
+      options:
+        - label: "I have went through the project's Readme"
+          required: true
