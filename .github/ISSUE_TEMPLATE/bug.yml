@@ -29,11 +29,3 @@ body:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: checks
-    attributes:
-      label: Docs
-      description: Make sure you went through the README file and docs
-      options:
-        - label: "I have went through the project's README file"
-          required: true
